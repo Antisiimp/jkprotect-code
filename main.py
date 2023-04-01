@@ -177,5 +177,5 @@ async def infobot(ctx):
 		await ctx.message.add_reaction('✅')
 		await ctx.send(embed=embed)
 
-TOKEN = os.environ.get("OTY3MDg4OTU3ODY1MjEzOTUy.GWShXw.1QneuwjFscmw-PHIQjQOiR7D7F5LSQGf498gas")
+TOKEN = os.environ.get("")
 bot.run(os.environ['TOKEN'])
